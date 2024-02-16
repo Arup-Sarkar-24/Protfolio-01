@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    <style>
+        /* Add the styles for the round profile picture and contact info */
+        header {
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .profile-picture {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .about {
+            color: #333;
+            padding: 30px;
+            background-color: #f8f8f8;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .contact-info div {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-info div img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .contact-info div img:hover {
+            transform: scale(1.2);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+   <header>
+        <div class="container">
+            <!-- Add your profile picture here -->
+            <div class="profile-picture">
+                <img src="me.png" alt="Profile Picture">
+            </div>
+            
+            <div>
+                <h1 class="text-center">Arup Sarkar</h1>
+                <h4 class="text-center">Full-Stack Software Developer</h4>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+         <div class="about text-center">
+            <strong><span style="color: red;">Collaborative software developer</span></strong> specializing in <strong><span style="color: red;">Java back-end</span></strong> development for IT firms over 1+ years. Resolved API-related issues; fixed data anomalies, optimizing performance & scalability; resulting in improvement of overall system efficiency.Integrated agile methodologies, collaborated on cross-functional teams, E2E Testing and ensured code maintainability.
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <!-- Add your project details here -->
+            <div class="project">
+                <h3>Employee Management System</h3>
+                <p>The Employee Management System is a web application built using Angular and Spring Boot that allows organizations to efficiently manage their employee records. It provides a user-friendly interface for performing various employee-related operations, such as adding new employees, updating existing employee information, and viewing and deleting employee records. The system aims to streamline HR processes and enhance overall employee data management.</p>
+                <a href="https://github.com/Arup-Sarkar-24/Full-Stack-CRUD-Basic">Codes</a>
+            </div>
+            <div class="project">
+                <h3>Hotel Management Microservices</h3>
+                <p>Welcome to the Hotel Management Microservices project! This project is designed to demonstrate a microservices architecture for managing a hotel reservation system. The project consists of multiple microservices that work together to provide various functionalities related to hotel management.</p>
+                <a href="https://github.com/Arup-Sarkar-24/MicroSevicesDemo">Codes</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+         <div class="contact-info">
+                <div>
+                    <img src="phone.png" alt="Phone Icon">
+                    +91-9091705624
+                </div>
+                <div>
+                    <img src="gmail.png" alt="Mail Icon">
+                    1arupsarkar112@gmail.com
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/arup-sarkar-148088255/"><img src="linkedin.png" alt="LinkedIn Icon"></a>
+                </div>
+                <div>
+                    <a href="https://github.com/arup-sarkar-24"><img src="github.png" alt="Github Icon"></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/arup_sarkar_24/"><img src="instagram.png" alt="Instagram Icon"></a>
+                </div>
+                <div>
+                    <img src="location.png" alt="Address Icon">
+                    Shibtali, Balurghat, WB, Pin: 733101 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Arup's Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

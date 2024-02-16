@@ -1,0 +1,42 @@
+/* Add a stylish background pattern */
+body {
+    background-color: #f4f4f4;
+    background-image: url('path/to/your-pattern.png');
+}
+
+/* Style the header with a gradient and add a subtle box shadow */
+header {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Add a hover effect on project links */
+.project a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #2196F3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #1565C0;
+}
+
+/* Style the footer with a fixed position at the bottom */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
